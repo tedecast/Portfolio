@@ -3,8 +3,9 @@
   width: 9%;
   height: 100%;
   position: absolute;
+}
 
-  .t-logo {
+.t-logo {
     font-family: "Archivo Black", sans-serif;
     color: #ff66ff;
     text-shadow: -5px 0px 0px #ffff66;
@@ -22,7 +23,6 @@
     font-weight: 500;
     text-align: center;
   }
-}
 
 
 // Mobile changes
@@ -37,5 +37,10 @@
         bottom: 0;
         left: 0;
     
+    }
+
+    .t-logo {
+        font-size: 4rem;
+        // text-align: 
     }
 }

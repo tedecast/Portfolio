@@ -1,21 +1,30 @@
 import { NavLink } from "react-router-dom";
 import "./sidebar.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faHome, faUser } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faFileText,
+  faHome,
+  faUser,
+} from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Sidebar = () => (
   <div className="navbar">
-    <h1 className="t-logo" to="/">
-      T
-    </h1>
-    <h1 className="tedecast">Tedecast</h1>
+    <div className="flex-logo">
+      <h1 className="t-logo" to="/">
+        T
+      </h1>
+      <h1 className="tedecast">Tedecast</h1>
+    </div>
 
     {/* Nav Icons */}
     <nav className="navbar-links">
+      {/* Home */}
       <NavLink exact="true" activeClassName="active" to="/">
         <FontAwesomeIcon icon={faHome} color="#ff66ff" />
       </NavLink>
+      {/* About */}
       <NavLink
         exact="true"
         activeClassName="active"
@@ -24,6 +33,16 @@ const Sidebar = () => (
       >
         <FontAwesomeIcon icon={faUser} color="#ff66ff" />
       </NavLink>
+      {/* Resume */}
+      <NavLink
+        exact="true"
+        activeClassName="active"
+        className="resume-link"
+        to="/resume"
+      >
+        <FontAwesomeIcon icon={faFileText} color="#ff66ff" />
+      </NavLink>
+      {/* Contact */}
       <NavLink
         exact="true"
         activeClassName="active"
@@ -32,7 +51,7 @@ const Sidebar = () => (
       >
         <FontAwesomeIcon icon={faEnvelope} color="#ff66ff" />
       </NavLink>
-
+      {/* LinkedIn */}
       <a
         target="_blank"
         rel="noreferrer"
@@ -41,7 +60,7 @@ const Sidebar = () => (
       >
         <FontAwesomeIcon icon={faLinkedin} color="#ff66ff" />
       </a>
-
+      {/* GitHub */}
       <a
         target="_blank"
         rel="noreferrer"
