@@ -55,7 +55,7 @@
       font-size: 0.8rem;
       letter-spacing: 0.2em;
       position: absolute;
-     justify-content: center;
+      justify-content: center;
       left: 50%;
       transform: translateX(-50%) translateY(2em);
       opacity: 0;
@@ -136,10 +136,39 @@
     bottom: 0;
     left: 0;
     justify-content: space-evenly;
+    
+    // Icon adjust and changed the icons to prevent 0 opacity
     a {
       font-size: 2em;
+      color: #ffff66;
+      // vertical-align: middle;
+      // display: inline-block;
+      height: 2em;
+      // position: relative;
+      text-decoration: none;
+  
+      i {
+        transition: all 0.3s ease-out;
+      }
+  
+      &:hover {
+  
+        svg {
+          opacity: 1;
+          color: #ffff66;
+        }
+  
+        &:after {
+          opacity: 1;
+        }
+      }
+  
+      &:after {
+       display: none;
+      }
     }
   }
+
 
   .navbar-links {
     flex-direction: row;
