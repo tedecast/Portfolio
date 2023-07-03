@@ -52,12 +52,12 @@
 
     &:after {
       content: "";
-      font-size: 1rem;
+      font-size: 0.8rem;
       letter-spacing: 0.2em;
       position: absolute;
-      // display: block;
-      width: 100%;
-      text-align: center;
+     justify-content: center;
+      left: 50%;
+      transform: translateX(-50%) translateY(2em);
       opacity: 0;
       transition: all 0.3s ease-out;
     }
