@@ -1,11 +1,13 @@
-import "./index.scss"
+import "./index.scss";
 
 const Home = () => {
+  const emoji = "\u{2728}";
   return (
     <div className="home-page container">
-        <div className="text-zone">
-            <h1>Hi, <br/> I'm Terri</h1>
-        </div>
+      <div className="text-zone">
+        <span className="hi-text">H</span>
+        <span className="hi-text">i,</span>
+      </div>
     </div>
   );
 };
