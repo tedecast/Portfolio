@@ -41,7 +41,7 @@ const Sidebar = () => (
         to="/resume"
       >
         <FontAwesomeIcon icon={faFileText} color="#ff66ff" />
-      </NavLink>
+      </NavLink>  
       {/* Contact */}
       <NavLink
         exact="true"
