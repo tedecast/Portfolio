@@ -192,11 +192,21 @@
   }
 }
 
-// Galaxy Fold
-@media screen and (max-width: 280px) {
+// Galaxy Fold 
+@media screen and (max-width: 340px) {
   .navbar {
     a {
       font-size: 1.5em;
+    }
+  }
+}
+
+
+// Very thin screens
+@media screen and (max-width: 260px) {
+  .navbar {
+    a {
+      font-size: 1em;
     }
   }
 }
