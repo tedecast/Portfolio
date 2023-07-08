@@ -1,7 +1,11 @@
 .home-page {
-  display: flex;
+  display: inline-block;
 
-  h5 {
+  div {
+    display: inline-block;
+  }
+
+  p {
     display: inline-block;
   }
 
@@ -13,24 +17,33 @@
     font-family: "Karla", sans-serif;
     font-size: 6rem;
     font-weight: 300;
-
   }
   
   .hi-text {
     line-height: 0rem;
   }
+  
   .t-logo {
     width: 10%;
     display: inline-block;
     font-family: "Archivo Black", sans-serif;
     color: #ff66ff;
     text-shadow: -5px 0px 0px #ffff66;
-    font-size: 6rem;
+    font-size: 7rem;
     text-align: center;
     margin-top: 0.1em;
+    margin-right: 0.2em;
     line-height: 0.8em;
   }
+  .emoji {
+    position: absolute;
+    font-size: 3rem;
+    margin-top: 1em;
+    line-height: 1em;
+  } 
 }
+
+
 
 // Mobile changes
 
