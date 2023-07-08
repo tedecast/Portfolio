@@ -5,11 +5,13 @@ const Home = () => {
   return (
     <div className="home-page container">
       <div className="text-zone">
-        <span className="hi-text">H</span>
-        <span className="hi-text">i,</span>
-        <br />
-        <span>I'</span>
-        <span>m</span>
+        <div>
+          <h5 className="hi-text">Hi,</h5>
+          <br />
+          <h5>I'm &nbsp;</h5>
+          <h5 className="t-logo">T</h5>
+          <h5>erri{emoji}</h5>
+        </div>
       </div>
     </div>
   );
