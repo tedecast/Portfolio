@@ -12,7 +12,10 @@ const Home = () => {
           <p className="t-logo">T</p>
           <p>erri</p>
           <p className="emoji">{emoji}</p>
+          <br/>
+          <p className="job-title">Web Developer</p>
         </div>
+       
       </div>
     </div>
   );
