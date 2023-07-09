@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./index.scss";
 
 const Home = () => {
@@ -12,10 +13,12 @@ const Home = () => {
           <p className="t-logo">T</p>
           <p>erri</p>
           <p className="emoji">{emoji}</p>
-          <br/>
+          <br />
           <p className="job-title">Web Developer</p>
+          <Link to="/contact" className="flat-button">
+            CONTACT ME
+          </Link>
         </div>
-       
       </div>
     </div>
   );

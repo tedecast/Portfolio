@@ -15,8 +15,9 @@
     flex-direction: row;
     margin-left: 2em;
     font-family: "Karla", sans-serif;
-    font-size: 6rem;
+    font-size: 7rem;
     font-weight: 300;
+    transform: translateY(30%);
   }
 
   .hi-text {
@@ -29,21 +30,41 @@
     font-family: "Archivo Black", sans-serif;
     color: #ff66ff;
     text-shadow: -5px 0px 0px #ffff66;
-    font-size: 7rem;
+    font-size: 8rem;
     text-align: center;
     margin-top: 0.1em;
-    margin-right: 0.2em;
-    line-height: 0.8em;
+    width: 0.6em;
+    line-height: 0.7em;
   }
+
   .emoji {
     position: absolute;
-    font-size: 3rem;
+    font-size: 3.2rem;
     margin-top: 1em;
     line-height: 1em;
   }
 
   .job-title {
-    font-size: 4rem;
+    position: absolute;
+    font-size: 3.5rem;
+    letter-spacing: 0.3em;
+    color: #7df9ff;
+  }
+
+  .flat-button {
+    line-height: 8em;
+    font-family: "Karla", sans-serif;
+    color: #ffff66;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    padding: 0.4em 0.5em;
+    border: 0.1em solid #ffff66;
+    // animation: fadeIn 1.5s 3.5s backwards;
+    border-radius: 1em;
+    // white-space: nowrap;
+    // transition: 0.5s;
   }
 }
 
