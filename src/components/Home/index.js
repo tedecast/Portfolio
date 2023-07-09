@@ -16,7 +16,7 @@ const Home = () => {
           <p className="emoji">{emoji}</p>
           <br />
           <p className="job-title">Web Developer</p>
-          <Link to="/contact" className="flat-button">
+          <Link to="/contact" className="contact-button">
             CONTACT ME
           </Link>
         </div>

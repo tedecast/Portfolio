@@ -51,7 +51,7 @@
     color: #7df9ff;
   }
 
-  .flat-button {
+  .contact-button {
     line-height: 8em;
     font-family: "Karla", sans-serif;
     color: #ffff66;
@@ -95,20 +95,32 @@
 //   }
 // }
 // General Screen
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1290px) {
   .home-page {
-    width: 100vw;
-    align-items: center;
+    div {
+      height: 100%;
+    }
     .text-zone {
-      font-size: 6rem;
-      transform: translateY(10%);
+      margin-left: 2.5em;
+      font-size: 8rem;
+      transform: translateY(40%);
+    }
+    .t-logo {
+      font-size: 9rem;
     }
     .job-title {
-      font-size: 2.5rem;
+      font-size: 3.5rem;
+    }
+    .emoji {
+      font-size: 3.5rem;
+      margin-top: 1em;
+    }
+    .contact-button {
+      font-size: 1.7rem;
     }
     .display-photo {
-      width: 4em;
-      transform: translateX(65%) translateY(-60%);
+      width: 6em;
+      transform: translateX(90%) translateY(-25%);
     }
   }
 }
