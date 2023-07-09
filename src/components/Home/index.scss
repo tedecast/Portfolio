@@ -95,6 +95,7 @@
 //   }
 // }
 // General Screen
+// Smaller Monitors
 @media screen and (min-width: 1290px) {
   .home-page {
     div {
@@ -125,6 +126,36 @@
   }
 }
 
+// Smaller Monitor zoom at 110%
+@media screen and (max-resolution: 110dpi){
+  .home-page {
+    div {
+      height: 100%;
+    }
+    .text-zone {
+      margin-left: 2.5em;
+      font-size: 8rem;
+      transform: translateY(40%);
+    }
+    .t-logo {
+      font-size: 9rem;
+    }
+    .job-title {
+      font-size: 3.5rem;
+    }
+    .emoji {
+      font-size: 3.5rem;
+      margin-top: 1em;
+    }
+    .contact-button {
+      font-size: 1.7rem;
+    }
+    .display-photo {
+      width: 6em;
+      transform: translateX(90%) translateY(-25%);
+    }
+  }
+}
 // // Galaxy Fold
 // @media screen and (max-width: 340px) {
 //   .home-page {
