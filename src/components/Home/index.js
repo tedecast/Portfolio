@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./index.scss";
-import Portrait from './../../assets/images/Self-Portrait.png';
+import Portrait from "./../../assets/images/Self-Portrait.png";
 
 const Home = () => {
   const emoji = "\u{2728}";
@@ -19,10 +19,9 @@ const Home = () => {
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
-          <img className="display-photo fade-in" src={Portrait} alt="portrait" />
         </div>
+        <img className="display-photo fade-in" src={Portrait} alt="portrait" />
       </div>
-      
     </div>
   );
 };

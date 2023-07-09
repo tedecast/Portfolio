@@ -69,7 +69,7 @@
 
   .display-photo {
     position: absolute;
-    transform: translateX(70%) translateY(-60%);
+    transform: translateX(100%) translateY(-24%);
     width: 5em;
     line-height: 0%;
   }
@@ -86,11 +86,20 @@
 //   }
 // }
 
-// // General Screen
+// Smaller Screen 
+// @media screen and (max-width: 20in){
+//   .home-page {
+//     .text-zone {
+//       font-size: 10rem;
+//     }
+//   }
+// }
+// General Screen
 @media screen and (max-width: 1200px) {
   .home-page {
+    width: 100vw;
+    align-items: center;
     .text-zone {
-      margin-left: 1.5em;
       font-size: 6rem;
       transform: translateY(10%);
     }
