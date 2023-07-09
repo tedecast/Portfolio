@@ -1,6 +1,6 @@
 .home-page {
   display: inline-block;
-  
+
   div {
     display: inline-block;
   }
@@ -78,26 +78,31 @@
 // Mobile changes
 
 // Zoomed out at 75%
-// @media screen and (max-resolution: 75dpi) {
+// @media screen and (max-resolution: 60dpi) {
 //   .home-page {
 //     .text-zone {
-//       font-size: 1rem;
+//       font-size: 5rem;
 //     }
 //   }
 // }
 
 // // General Screen
-// @media screen and (max-width: 1200px) {
-//   .home-page {
-//     .text-zone {
-//       font-size: 3rem;
-//     }
-//     .t-logo {
-//       font-size: 3rem;
-//       font-family: sans-serif;
-//     }
-//   }
-// }
+@media screen and (max-width: 1200px) {
+  .home-page {
+    .text-zone {
+      margin-left: 1.5em;
+      font-size: 6rem;
+      transform: translateY(10%);
+    }
+    .job-title {
+      font-size: 2.5rem;
+    }
+    .display-photo {
+      width: 4em;
+      transform: translateX(65%) translateY(-60%);
+    }
+  }
+}
 
 // // Galaxy Fold
 // @media screen and (max-width: 340px) {
