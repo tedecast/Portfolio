@@ -1,6 +1,7 @@
 .home-page {
   display: inline-block;
-  overf div {
+  
+  div {
     display: inline-block;
   }
 
@@ -14,7 +15,7 @@
     flex-direction: row;
     margin-left: 2em;
     font-family: "Karla", sans-serif;
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: 300;
     transform: translateY(30%);
   }
@@ -29,7 +30,7 @@
     font-family: "Archivo Black", sans-serif;
     color: #ff66ff;
     text-shadow: -5px 0px 0px #ffff66;
-    font-size: 8rem;
+    font-size: 7rem;
     text-align: center;
     margin-top: 0.1em;
     width: 0.6em;
@@ -38,14 +39,14 @@
 
   .emoji {
     position: absolute;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     margin-top: 1em;
     line-height: 1em;
   }
 
   .job-title {
     position: absolute;
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     letter-spacing: 0.3em;
     color: #7df9ff;
   }
@@ -54,7 +55,7 @@
     line-height: 8em;
     font-family: "Karla", sans-serif;
     color: #ffff66;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     letter-spacing: 0.1em;
     text-decoration: none;
@@ -68,8 +69,8 @@
 
   .display-photo {
     position: absolute;
-    transform: translateX(70%) translateY(-65%);
-    width: 4.6em;
+    transform: translateX(70%) translateY(-60%);
+    width: 5em;
     line-height: 0%;
   }
 }
@@ -77,49 +78,49 @@
 // Mobile changes
 
 // Zoomed out at 75%
-@media screen and (max-resolution: 75dpi) {
-  .home-page {
-    .text-zone {
-      font-size: 1rem;
-    }
-  }
-}
+// @media screen and (max-resolution: 75dpi) {
+//   .home-page {
+//     .text-zone {
+//       font-size: 1rem;
+//     }
+//   }
+// }
 
-// General Screen
-@media screen and (max-width: 1200px) {
-  .home-page {
-    .text-zone {
-      font-size: 3rem;
-    }
-    .t-logo {
-      font-size: 3rem;
-      font-family: sans-serif;
-    }
-  }
-}
+// // General Screen
+// @media screen and (max-width: 1200px) {
+//   .home-page {
+//     .text-zone {
+//       font-size: 3rem;
+//     }
+//     .t-logo {
+//       font-size: 3rem;
+//       font-family: sans-serif;
+//     }
+//   }
+// }
 
-// Galaxy Fold
-@media screen and (max-width: 340px) {
-  .home-page {
-    .text-zone {
-      font-size: 3rem;
-    }
-    .t-logo {
-      font-size: 3rem;
-      font-family: sans-serif;
-    }
-  }
-}
+// // Galaxy Fold
+// @media screen and (max-width: 340px) {
+//   .home-page {
+//     .text-zone {
+//       font-size: 3rem;
+//     }
+//     .t-logo {
+//       font-size: 3rem;
+//       font-family: sans-serif;
+//     }
+//   }
+// }
 
-// Very thin screens
-@media screen and (max-width: 260px) {
-  .home-page {
-    .text-zone {
-      font-size: 3rem;
-    }
-    .t-logo {
-      font-size: 3rem;
-      font-family: sans-serif;
-    }
-  }
-}
+// // Very thin screens
+// @media screen and (max-width: 260px) {
+//   .home-page {
+//     .text-zone {
+//       font-size: 3rem;
+//     }
+//     .t-logo {
+//       font-size: 3rem;
+//       font-family: sans-serif;
+//     }
+//   }
+// }
