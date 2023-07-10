@@ -86,7 +86,7 @@
 //   }
 // }
 
-// Smaller Screen 
+// Smaller Screen
 // @media screen and (max-width: 20in){
 //   .home-page {
 //     .text-zone {
@@ -95,34 +95,7 @@
 //   }
 // }
 // General Screen
-// Mobile Devices like iPhone 
-@media screen and (max-width: 480px){
-  .home-page {
-    width: 70vw;
-    height: 100vw;
-    transform: translateY(60%);
-    text-align: center;
-    .text-zone {
-      font-size: 3rem;
-    }
-    .t-logo {
-      font-size: 4rem;
-    }
-    .emoji {
-      font-size: 1.6rem;
-    }
-    .job-title {
-      font-size: 1.3rem;
-    }
-    .contact-button {
-      font-size: 1rem;
-    }
-    .display-photo {
-      transform: translateY(-60%);
-    }
-  }
-  
-}
+
 // Smaller Monitors
 @media screen and (min-width: 1290px) {
   .home-page {
@@ -153,8 +126,38 @@
     }
   }
 }
-
-
+// Mobile Devices like iPhoneSE & Samsung Galaxy S8+
+@media screen and (max-width: 380px) {
+  .home-page {
+    margin: 0;
+    width: 70vw;
+    height: 100vw;
+    transform: translateX(-5%) translateY(50%);
+    text-align: center;
+    .text-zone {
+      width: 100%;
+      font-size: 3rem;
+      transform: translateY(60%);
+    }
+    .t-logo {
+      font-size: 4rem;
+    }
+    .emoji {
+      font-size: 1.6rem;
+    }
+    .job-title {
+      font-size: 1.3rem;
+      transform: translateX(-13%);
+    }
+    .contact-button {
+      font-size: 1rem;
+    }
+    .display-photo {
+      width: 100%;
+      transform: translateX(-10%) translateY(-95%);
+    }
+  }
+}
 
 // Smaller Monitor zoom at 110%
 // @media screen and (max-resolution: 110dpi){
