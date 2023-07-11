@@ -132,28 +132,30 @@
   .home-page {
     width: 60vw;
     height: 100vw;
-    transform: translateX(-10%) translateY(70%);
+    transform: translateX(0%) translateY(80%);
     text-align: center;
     .text-zone {
       width: 100%;
-      font-size: 4rem;
+      font-size: 3rem;
+      transform: translateY(40%);
     }
     .t-logo {
-      font-size: 5rem;
+      font-size: 4rem;
     }
     .emoji {
-      font-size: 2rem
+      font-size: 1.6rem
     }
     .job-title{
-      text-align: left;
-      font-size: 2rem;
+      transform: translateX(-6%);
+      font-size: 1.2rem;
     }
     .contact-button {
       font-size: 1rem;
+      margin-left: 1em;
     }
     .display-photo {
       width: 100%;
-      transform: translateX(-10%) translateY(-90%);
+      transform: translateX(-10%) translateY(-100%);
     }
   }
 }
@@ -178,10 +180,11 @@
     }
     .job-title {
       font-size: 1.3rem;
-      transform: translateX(-13%);
+      transform: translateX(-10%);
     }
     .contact-button {
       font-size: 1rem;
+      margin-left: 1em;
     }
     .display-photo {
       width: 100%;
