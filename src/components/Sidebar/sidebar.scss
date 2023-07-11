@@ -119,6 +119,7 @@
     a {
       font-size: 3em;
     }
+
   }
 }
 
@@ -133,15 +134,12 @@
     bottom: 0;
     left: 0;
     justify-content: space-evenly;
-
+    height: 3em;
     // Icon adjust and changed the icons to prevent 0 opacity
     a {
       font-size: 2em;
       color: #ffff66;
-      // vertical-align: middle;
-      // display: inline-block;
       height: 2em;
-      // position: relative;
       text-decoration: none;
 
       i {
@@ -174,6 +172,7 @@
 
   .navbar-links {
     flex-direction: row;
+    margin-top: 1em;
   }
 
   .navbar-links a:not(:last-child) {
