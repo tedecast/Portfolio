@@ -126,7 +126,38 @@
     }
   }
 }
-// Mobile Devices like iPhoneSE & Samsung Galaxy S8+
+
+// iPhoneXR
+@media screen and (max-width: 414px) {
+  .home-page {
+    width: 60vw;
+    height: 100vw;
+    transform: translateX(-10%) translateY(70%);
+    text-align: center;
+    .text-zone {
+      width: 100%;
+      font-size: 4rem;
+    }
+    .t-logo {
+      font-size: 5rem;
+    }
+    .emoji {
+      font-size: 2rem
+    }
+    .job-title{
+      text-align: left;
+      font-size: 2rem;
+    }
+    .contact-button {
+      font-size: 1rem;
+    }
+    .display-photo {
+      width: 100%;
+      transform: translateX(-10%) translateY(-90%);
+    }
+  }
+}
+// iPhoneSE & Samsung Galaxy S8+
 @media screen and (max-width: 380px) {
   .home-page {
     margin: 0;
