@@ -101,7 +101,6 @@
       opacity: 1;
     }
   }
-  
 }
 
 // Mobile changes
@@ -126,35 +125,35 @@
 // General Screen
 
 // Smaller Monitors
-@media screen and (min-width: 1290px) {
-  .home-page {
-    div {
-      height: 100%;
-    }
-    .text-zone {
-      margin-left: 2.5em;
-      font-size: 8rem;
-      transform: translateY(40%);
-    }
-    .t-logo {
-      font-size: 9rem;
-    }
-    .job-title {
-      font-size: 3.5rem;
-    }
-    .emoji {
-      font-size: 3.5rem;
-      margin-top: 1em;
-    }
-    .contact-button {
-      font-size: 1.7rem;
-    }
-    .display-photo {
-      width: 6em;
-      transform: translateX(90%) translateY(-25%);
-    }
-  }
-}
+// @media screen and (min-width: 1290px) {
+//   .home-page {
+//     div {
+//       height: 100%;
+//     }
+//     .text-zone {
+//       margin-left: 2.5em;
+//       font-size: 8rem;
+//       transform: translateY(40%);
+//     }
+//     .t-logo {
+//       font-size: 9rem;
+//     }
+//     .job-title {
+//       font-size: 3.5rem;
+//     }
+//     .emoji {
+//       font-size: 3.5rem;
+//       margin-top: 1em;
+//     }
+//     .contact-button {
+//       font-size: 1.7rem;
+//     }
+//     .display-photo {
+//       width: 6em;
+//       transform: translateX(90%) translateY(-25%);
+//     }
+//   }
+// }
 
 // iPhoneXR
 @media screen and (max-width: 414px) {
@@ -254,28 +253,36 @@
 //     }
 //   }
 // }
-// // Galaxy Fold
-// @media screen and (max-width: 340px) {
-//   .home-page {
-//     .text-zone {
-//       font-size: 3rem;
-//     }
-//     .t-logo {
-//       font-size: 3rem;
-//       font-family: sans-serif;
-//     }
-//   }
-// }
+// Galaxy Fold
+@media screen and (max-width: 340px) {
+  .home-page {
+    height: 100vw;
+    transform: translateX(-32%) translateY(65%);
+    .text-zone {
+      font-size: 3rem;
+    }
+    .t-logo {
+      font-size: 3rem;
+      font-family: sans-serif;
+    }
+    .emoji {
+      line-height: 0.4em;
+    }
+    .display-photo {
+      transform: translateX(5%) translateY(-100%);
+    }
+  }
+}
 
-// // Very thin screens
-// @media screen and (max-width: 260px) {
-//   .home-page {
-//     .text-zone {
-//       font-size: 3rem;
-//     }
-//     .t-logo {
-//       font-size: 3rem;
-//       font-family: sans-serif;
-//     }
-//   }
-// }
+// Very thin screens
+@media screen and (max-width: 260px) {
+  .home-page {
+    .text-zone {
+      font-size: 3rem;
+    }
+    .t-logo {
+      font-size: 3rem;
+      font-family: sans-serif;
+    }
+  }
+}
