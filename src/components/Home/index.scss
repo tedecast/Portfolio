@@ -50,7 +50,19 @@
     letter-spacing: 0.3em;
     color: #7df9ff;
   }
-
+  // Text Animation
+  .text-animate {
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn 1s 1s;
+    animation-fill-mode: forwards;
+    min-width: 0.05em;
+  }
+  @for $i from 1 through 100 {
+    .text-animate._#{$i} {
+      animation-delay: #{$i / 10}s;
+    }
+  }
   .contact-button {
     line-height: 8em;
     font-family: "Karla", sans-serif;
@@ -143,16 +155,18 @@
       font-size: 4rem;
     }
     .emoji {
-      font-size: 1.6rem
+      font-size: 1.6rem;
     }
-    .job-title{
+    .job-title {
       transform: translateX(-6%);
       font-size: 1.2rem;
     }
+
     .contact-button {
       font-size: 1rem;
       margin-left: 1em;
     }
+
     .display-photo {
       width: 100%;
       transform: translateX(-5%) translateY(-100%);
