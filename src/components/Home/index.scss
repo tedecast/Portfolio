@@ -89,7 +89,19 @@
     transform: translateX(100%) translateY(-24%);
     width: 5em;
     line-height: 0%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    animation: fade-in 1.5s 4s forwards;
   }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
 }
 
 // Mobile changes
@@ -163,7 +175,7 @@
       font-size: 1.6rem;
     }
     .job-title {
-      transform: translateX(-6%);
+      transform: translateX(-7%);
       font-size: 1.2rem;
     }
 
