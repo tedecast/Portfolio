@@ -73,10 +73,15 @@
     text-decoration: none;
     padding: 0.4em 0.5em;
     border: 0.1em solid #ffff66;
-    // animation: fadeIn 1.5s 3.5s backwards;
+    animation: fadeIn 1.5s 3.5s backwards;
     border-radius: 1em;
-    // white-space: nowrap;
-    // transition: 0.5s;
+    white-space: nowrap;
+    transition: 0.5s;
+
+    &:hover {
+      background: #ffff66;
+      color: #7df9ff;
+    }
   }
 
   .display-photo {
